@@ -30,8 +30,9 @@ def make_stream(name, component_count, data, typ="float32"):
 
 def orient_y(rot):
     # Rotate object and apply transform to match defolds right hand cartesian coordinate system
-    bpy.ops.transform.rotate(value=rot, orient_axis='X', orient_type='GLOBAL', orient_matrix=((1, 0, 0), (0, 1, 0), (0, 0, 1)), orient_matrix_type='GLOBAL', constraint_axis=(True, False, False), mirror=False, use_proportional_edit=False, proportional_edit_falloff='SMOOTH', proportional_size=1, use_proportional_connected=False, use_proportional_projected=False, snap=False, snap_elements={'INCREMENT'}, use_snap_project=False, snap_target='CLOSEST', use_snap_self=True, use_snap_edit=True, use_snap_nonedit=True, use_snap_selectable=False)
+    bpy.ops.transform.rotate(value=rot, orient_axis='X', orient_type='GLOBAL', orient_matrix=((1, 0, 0), (0, 1, 0), (0, 0, 1)), orient_matrix_type='GLOBAL', constraint_axis=(True, False, False), mirror=False, use_proportional_edit=False, proportional_edit_falloff='SMOOTH', proportional_size=1, use_proportional_connected=False, use_proportional_projected=False)
     bpy.ops.object.transform_apply(location=False, rotation=True, scale=False)
+
 
 
 def export_mesh(mesh, b_normal, b_tanget, b_uv, b_color):
