@@ -6,20 +6,20 @@ version = "1.0.0"
 
 name = "Clean Exporter"
 
-tagline = "Mesh buffer exporter for the Defold game engine."
+tagline = "Mesh buffer exporter for the Defold game engine"
 
 maintainer = "Agustin R."
 
 type = "add-on"
 
-website = "https://extensions.blender.org"
+website = "https://extensions.blender.org/add-ons/clean-exporter/"
 
-tags = ["Export", "Game Engine"]
+tags = ["Import-Export", "Game Engine"]
 
 blender_version_min = "4.2.0"
 
 license = [
-  "SPDX:MIT-0",
+  "SPDX:GPL-3.0-or-later",
 ]
 
 copyright = [
