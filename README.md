@@ -1,6 +1,9 @@
 ![](/docs/Clean_thumb.png)
 
-Blender add-on for exporting mesh (.buffer) files for use in the Defold game engines mesh components. Options allow the user to choose what attribute streams they wish to export, keeping their game asset files lean.
+Blender add-on for exporting game asset files for use in the Defold game engine - mesh components. Options allow the user to choose what attribute streams they wish to export, keeping their game asset files lean.
+
+### Roadmap:
+The current goal of this add-on is to streamline game ready assets from blender to defold game projects and give the game developer the options to export  what data they need. The future intention is to make the asset pipeline even more optimized by making less manual work like creating and adding the .buffer files to .mesh files. Instead options to do these things should make the process easier for small and large game development projects alike. The add-on should evolve with the requirements needed by the defold game engine.
 
 How to install:
 
@@ -24,7 +27,7 @@ Next select one or more mesh objects for export. Note: each selected mesh object
 
 ∙ Normals stream
 
-∙ UV coordinates - exports as named in blender ( Properties > Data > UV Maps ). In Defold built-ins shader's use “texcoord0” as UV attribute name.
+∙ UV coordinates - exports as named in blender ( Properties > Data > UV Maps ). Note: In Defold built-ins shader's use “texcoord0” as UV attribute name.
 
 ∙ Tangents stream
 
@@ -41,3 +44,9 @@ After exporting from blender you should now be ready to add the mesh .buffer fil
 ![](/docs/Defold_Mesh_component.png)
 
 ![](/docs/Defold_build.png)
+
+#### links :
+
+- [Blender extension platform:](https://extensions.blender.org)
+
+- [Defold game engine:](https://defold.com/)
