@@ -1,9 +1,9 @@
 ![](/docs/Clean_thumb.png)
 
-Blender add-on for exporting game asset files to use with the Defold game engine - mesh components. Options allow the user to choose what attribute streams they wish to export, keeping their game asset files lean.
+Blender add-on for exporting game asset files to use with the Defold game engine - mesh components. Options allow the user to choose what attribute streams they wish to export, keeping their game asset files lean. Export single assets or batch export multiple assets by selection.
 
 ### Roadmap:
-The current goal of this add-on is to streamline game ready assets from blender to defold game projects and give the game developer the options to export  what data they need. The future intention is to make the asset pipeline even more optimized by making less manual work like creating and adding the .buffer files to .mesh files. Instead options to do these things should make the process easier for small and large game development projects alike. The add-on should evolve with the requirements needed by the defold game engine.
+The current goal of this add-on is to streamline game ready assets from blender to defold game projects and give the game developer the options to export what data they need for mesh components. Future updates focused on making the asset pipeline even more optimized by making less manual work like creating and adding the .buffer files to .mesh files. Instead options to do these things should make the process easier for small and large game development projects alike. The add-on should also evolve with the requirements needed by the Defold game engine.
 
 ## How to install:
 
@@ -11,7 +11,7 @@ Go to Edit menu > preferences > Get Extensions , With internet enabled search fi
 
 ![](/docs/Addon_search.png)
 
-Alternatively you can download a github release and install in blender from disk option. There is a legacy release version that may work in older versions of blender pre 4.2. The current legacy version was tested using blender 3.1.2
+Alternatively you can download a github release and install in blender from disk option. Legacy release version may work with older versions of blender pre 4.2. The current legacy version was tested using blender 3.1.2
 
 ## How to use:
 
