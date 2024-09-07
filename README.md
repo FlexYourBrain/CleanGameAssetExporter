@@ -1,11 +1,11 @@
 ![](/docs/Clean_thumb.png)
 
-Blender add-on for exporting game asset files for use in the Defold game engine - mesh components. Options allow the user to choose what attribute streams they wish to export, keeping their game asset files lean.
+Blender add-on for exporting game asset files to use with the Defold game engine - mesh components. Options allow the user to choose what attribute streams they wish to export, keeping their game asset files lean.
 
 ### Roadmap:
 The current goal of this add-on is to streamline game ready assets from blender to defold game projects and give the game developer the options to export  what data they need. The future intention is to make the asset pipeline even more optimized by making less manual work like creating and adding the .buffer files to .mesh files. Instead options to do these things should make the process easier for small and large game development projects alike. The add-on should evolve with the requirements needed by the defold game engine.
 
-How to install:
+## How to install:
 
 Go to Edit menu > preferences > Get Extensions , With internet enabled search filter "Add-ons" and Repositories set to "extensions.blender.org" search for "Clean Exporter" now should show up as available with a convenient install button.
 
