@@ -1,10 +1,10 @@
 bl_info = {
-    "name": "CLEAN Exporter",
+    "name": "CLEAN Game Asset Exporter",
     "author": "Agustin R",
     "version": (1, 0),
     "blender": (3, 1, 2),
     "location": "3DVIEW > N-PANEL",
-    "description": "Export mesh .buffer files.",
+    "description": "Export Game Asset .buffer files.",
     "warning": "",
     "wiki_url": "",
     "tracker_url": "",
@@ -76,7 +76,7 @@ class CleanSettings(PropertyGroup):
 # ------------------------------------------------------------------------
 class CLEAN_PT_panel(Panel):
     bl_idname = "CLEAN_PT_panel"
-    bl_label = "CLEAN - EXPORTER"
+    bl_label = "CLEAN GAME ASSET EXPORTER"
     bl_category = "CLEAN"
     bl_space_type = 'VIEW_3D'
     bl_region_type = 'UI'

@@ -1,4 +1,4 @@
-""" This module contains main functions for exporting """
+### This module contains main functions for exporting ###
 ### CREDIT: Code reference defold_mesh.py - https://forum.defold.com/t/mesh-component/65137 ###
 
 import bpy
