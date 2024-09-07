@@ -1,20 +1,20 @@
 schema_version = "1.0.0"
 
-id = "clean_exporter"
+id = "clean_game_asset_exporter"
 
 version = "1.0.0"
 
-name = "Clean Exporter"
+name = "Clean Game Asset Exporter"
 
-tagline = "Mesh buffer exporter for the Defold game engine"
+tagline = "Game asset exporter for the Defold game engine"
 
 maintainer = "Agustin R."
 
 type = "add-on"
 
-website = "https://extensions.blender.org/add-ons/clean-exporter/"
+website = "https://github.com/FlexYourBrain/CleanGameAssetExporter"
 
-tags = ["Import-Export", "Game Engine"]
+tags = ["Game Engine", "Import-Export"]
 
 blender_version_min = "4.2.0"
 
@@ -27,4 +27,4 @@ copyright = [
 ]
 
 [permissions]
-files = "Export .buffer files to disk"
+files = "Export game asset files to disk"
